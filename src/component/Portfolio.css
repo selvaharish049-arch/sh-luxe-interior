@@ -62,18 +62,16 @@
   align-items: center;
   flex: 1;
   text-align: center;
-  background: #ffffff;
-  border-radius: 16px;
-  padding: 16px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
-  border: 1px solid #f2ece4;
-  transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+  background: transparent;
+  border-radius: 0;
+  padding: 0;
+  box-shadow: none;
+  border: none;
+  transition: transform 0.3s ease;
 }
 
 .portfolio-box:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 12px 30px rgba(62, 50, 45, 0.08);
-  border-color: #d6c8b8;
+  transform: translateY(-4px);
 }
 
 /* Curved Image wrapper container */
@@ -83,7 +81,7 @@
   aspect-ratio: 16/10;
   border-radius: 12px;
   overflow: hidden;
-  border: 1px solid #f2ece4;
+  border: none;
   cursor: pointer;
 }
 
